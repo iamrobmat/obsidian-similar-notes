@@ -1,0 +1,27 @@
+{
+    "name": "obsidian-similar-notes",
+    "version": "1.0.0",
+    "description": "Plugin do Obsidian pokazujący podobne notatki używając embeddingów OpenAI",
+    "main": "main.js",
+    "scripts": {
+        "dev": "node esbuild.config.mjs",
+        "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+        "version": "node version-bump.mjs && git add manifest.json versions.json"
+    },
+    "keywords": ["obsidian", "plugin", "openai", "embeddings"],
+    "author": "Robert Matyszewski",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^16.11.6",
+        "@typescript-eslint/eslint-plugin": "^5.29.0",
+        "@typescript-eslint/parser": "^5.29.0",
+        "builtin-modules": "^3.2.0",
+        "esbuild": "0.17.3",
+        "obsidian": "latest",
+        "tslib": "2.3.1",
+        "typescript": "^5.3.3"
+    },
+    "dependencies": {
+        "openai": "^4.0.0"
+    }
+} 

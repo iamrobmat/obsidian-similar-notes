@@ -1,0 +1,48 @@
+.similar-notes-header {
+    padding: 10px;
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.similar-notes-header h2 {
+    margin: 0;
+    font-size: 1.2em;
+    color: var(--text-normal);
+}
+
+.similar-notes-results {
+    padding: 10px;
+}
+
+.similar-notes-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.similar-notes-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.similar-notes-list li:last-child {
+    border-bottom: none;
+}
+
+.similar-notes-list a {
+    color: var(--text-normal);
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.similar-notes-list a:hover {
+    color: var(--text-accent);
+}
+
+.similarity-score {
+    color: var(--text-muted);
+    font-size: 0.9em;
+    margin-left: 5px;
+} 

@@ -1,0 +1,208 @@
+{
+  "openaiApiKey": "",
+  "maxResults": 5,
+  "minSimilarity": 0.8,
+  "errorLogs": [
+    {
+      "timestamp": 1743759065766,
+      "message": "Error updating embedding for 02 notes/Untitled 5.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6273:55)"
+    },
+    {
+      "timestamp": 1743759051363,
+      "message": "Error updating embedding for 02 notes/Untitled 5.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6273:55)"
+    },
+    {
+      "timestamp": 1743681917615,
+      "message": "Error updating embedding for 02 notes/lex interview.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6273:55)"
+    },
+    {
+      "timestamp": 1743681845607,
+      "message": "Error updating embedding for 02 notes/lex interview.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6273:55)"
+    },
+    {
+      "timestamp": 1743674228709,
+      "message": "Error indexing 02 notes/Andrej Karpathy.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6273:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6229:30)\n    at async eval (plugin:similar-notes:6188:11)"
+    },
+    {
+      "timestamp": 1743674227340,
+      "message": "Error indexing 02 notes/Matter-highlights.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6273:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6229:30)\n    at async eval (plugin:similar-notes:6188:11)"
+    },
+    {
+      "timestamp": 1743674226933,
+      "message": "Error indexing 02 notes/Radek Taraszka.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6273:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6229:30)\n    at async eval (plugin:similar-notes:6188:11)"
+    },
+    {
+      "timestamp": 1743674225881,
+      "message": "Error indexing 02 notes/Untitled 2.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6273:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6229:30)\n    at async eval (plugin:similar-notes:6188:11)"
+    },
+    {
+      "timestamp": 1743674225814,
+      "message": "Error indexing 02 notes/Untitled 3.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6273:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6229:30)\n    at async eval (plugin:similar-notes:6188:11)"
+    },
+    {
+      "timestamp": 1743674225697,
+      "message": "Error indexing 02 notes/Untitled 6.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6273:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6229:30)\n    at async eval (plugin:similar-notes:6188:11)"
+    },
+    {
+      "timestamp": 1743674225640,
+      "message": "Error indexing 02 notes/Untitled.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6273:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6229:30)\n    at async eval (plugin:similar-notes:6188:11)"
+    },
+    {
+      "timestamp": 1743674221196,
+      "message": "Error indexing 02 notes/dominacja wiedzy i umysłu.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6273:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6229:30)\n    at async eval (plugin:similar-notes:6188:11)"
+    },
+    {
+      "timestamp": 1743592695742,
+      "message": "Error indexing 02 notes/Andrej Karpathy.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6273:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6229:30)\n    at async eval (plugin:similar-notes:6188:11)"
+    },
+    {
+      "timestamp": 1743592691840,
+      "message": "Error indexing 02 notes/Matter-highlights.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6273:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6229:30)\n    at async eval (plugin:similar-notes:6188:11)"
+    },
+    {
+      "timestamp": 1743592690640,
+      "message": "Error indexing 02 notes/Radek Taraszka.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6273:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6229:30)\n    at async eval (plugin:similar-notes:6188:11)"
+    },
+    {
+      "timestamp": 1743592688042,
+      "message": "Error indexing 02 notes/Untitled 2.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6273:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6229:30)\n    at async eval (plugin:similar-notes:6188:11)"
+    },
+    {
+      "timestamp": 1743592687914,
+      "message": "Error indexing 02 notes/Untitled 3.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6273:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6229:30)\n    at async eval (plugin:similar-notes:6188:11)"
+    },
+    {
+      "timestamp": 1743592687637,
+      "message": "Error indexing 02 notes/Untitled 6.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6273:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6229:30)\n    at async eval (plugin:similar-notes:6188:11)"
+    },
+    {
+      "timestamp": 1743592687527,
+      "message": "Error indexing 02 notes/Untitled.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6273:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6229:30)\n    at async eval (plugin:similar-notes:6188:11)"
+    },
+    {
+      "timestamp": 1743592675771,
+      "message": "Error indexing 02 notes/dominacja wiedzy i umysłu.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6273:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6229:30)\n    at async eval (plugin:similar-notes:6188:11)"
+    },
+    {
+      "timestamp": 1743581513732,
+      "message": "Error indexing 02 notes/Andrej Karpathy.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6273:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6229:30)\n    at async eval (plugin:similar-notes:6188:11)"
+    },
+    {
+      "timestamp": 1743581512379,
+      "message": "Error indexing 02 notes/Matter-highlights.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6273:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6229:30)\n    at async eval (plugin:similar-notes:6188:11)"
+    },
+    {
+      "timestamp": 1743581511966,
+      "message": "Error indexing 02 notes/Radek Taraszka.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6273:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6229:30)\n    at async eval (plugin:similar-notes:6188:11)"
+    },
+    {
+      "timestamp": 1743581510903,
+      "message": "Error indexing 02 notes/Untitled 2.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6273:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6229:30)\n    at async eval (plugin:similar-notes:6188:11)"
+    },
+    {
+      "timestamp": 1743581510843,
+      "message": "Error indexing 02 notes/Untitled 3.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6273:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6229:30)\n    at async eval (plugin:similar-notes:6188:11)"
+    },
+    {
+      "timestamp": 1743581510655,
+      "message": "Error indexing 02 notes/Untitled 6.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6273:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6229:30)\n    at async eval (plugin:similar-notes:6188:11)"
+    },
+    {
+      "timestamp": 1743581510598,
+      "message": "Error indexing 02 notes/Untitled.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6273:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6229:30)\n    at async eval (plugin:similar-notes:6188:11)"
+    },
+    {
+      "timestamp": 1743581506094,
+      "message": "Error indexing 02 notes/dominacja wiedzy i umysłu.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6273:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6229:30)\n    at async eval (plugin:similar-notes:6188:11)"
+    },
+    {
+      "timestamp": 1743581345091,
+      "message": "Error indexing 02 notes/Andrej Karpathy.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6245:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6201:30)\n    at async eval (plugin:similar-notes:6175:11)"
+    },
+    {
+      "timestamp": 1743581323091,
+      "message": "Error indexing 02 notes/Matter-highlights.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6245:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6201:30)\n    at async eval (plugin:similar-notes:6175:11)"
+    },
+    {
+      "timestamp": 1743581310079,
+      "message": "Error indexing 02 notes/Radek Taraszka.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6245:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6201:30)\n    at async eval (plugin:similar-notes:6175:11)"
+    },
+    {
+      "timestamp": 1743581297094,
+      "message": "Error indexing 02 notes/Untitled 2.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6245:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6201:30)\n    at async eval (plugin:similar-notes:6175:11)"
+    },
+    {
+      "timestamp": 1743581296090,
+      "message": "Error indexing 02 notes/Untitled 3.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6245:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6201:30)\n    at async eval (plugin:similar-notes:6175:11)"
+    },
+    {
+      "timestamp": 1743581293089,
+      "message": "Error indexing 02 notes/Untitled 6.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6245:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6201:30)\n    at async eval (plugin:similar-notes:6175:11)"
+    },
+    {
+      "timestamp": 1743581292085,
+      "message": "Error indexing 02 notes/Untitled.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6245:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6201:30)\n    at async eval (plugin:similar-notes:6175:11)"
+    },
+    {
+      "timestamp": 1743581221670,
+      "message": "Error indexing 02 notes/dominacja wiedzy i umysłu.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6245:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6201:30)\n    at async eval (plugin:similar-notes:6175:11)"
+    },
+    {
+      "timestamp": 1743581188772,
+      "message": "Error indexing 02 notes/jak czytać książki aby się rozwijać.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6245:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6201:30)\n    at async eval (plugin:similar-notes:6175:11)"
+    },
+    {
+      "timestamp": 1743581176499,
+      "message": "Error indexing 02 notes/nie spełniam jej oczekiwań.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6245:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6201:30)\n    at async eval (plugin:similar-notes:6175:11)"
+    },
+    {
+      "timestamp": 1743581106073,
+      "message": "Error indexing 02 notes/nie spełniam jej oczekiwań.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6245:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6201:30)"
+    },
+    {
+      "timestamp": 1743581026108,
+      "message": "Error indexing 02 notes/spontaniczny plan treningowy.md",
+      "details": "Cannot generate embedding for empty text\nError: Cannot generate embedding for empty text\n    at EmbeddingManager.generateEmbedding (plugin:similar-notes:5991:13)\n    at SimilarNotesPlugin.updateNoteEmbedding (plugin:similar-notes:6245:55)\n    at async SimilarNotesPlugin.reindexAllNotes (plugin:similar-notes:6201:30)"
+    }
+  ],
+  "maxErrorLogs": 50
+}

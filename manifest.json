@@ -1,0 +1,10 @@
+{
+    "id": "similar-notes",
+    "name": "Similar Notes",
+    "version": "1.0.0",
+    "minAppVersion": "0.15.0",
+    "description": "Find semantically similar notes using OpenAI embeddings",
+    "author": "Robert Matyszewski",
+    "authorUrl": "https://github.com/iamrobmat",
+    "isDesktopOnly": false
+} 
