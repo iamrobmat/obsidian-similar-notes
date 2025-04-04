@@ -6,7 +6,7 @@ on:
       - '*'
 
 jobs:
-  release:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -18,12 +18,3 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
-      - name: Create Release
-        uses: obsidianmd/obsidian-releases@v1
-        with:
-          manifest: manifest.json
-          main: main.js
-          styles: styles.css
-          token: ${{ secrets.GITHUB_TOKEN }}
-          draft: false
-          prerelease: false
