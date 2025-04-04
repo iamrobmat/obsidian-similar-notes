@@ -1,0 +1,65 @@
+name: Build and Release
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm install
+    
+    - name: Build
+      run: npm run build
+    
+    - name: Upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: plugin
+        path: |
+          main.js
+          manifest.json
+          styles.css
+        retention-days: 5
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.event_name == 'release'
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Download artifact
+      uses: actions/download-artifact@v3
+      with:
+        name: plugin
+        path: release
+    
+    - name: Create release zip
+      run: |
+        cd release
+        zip -r ../obsidian-similar-notes.zip *
+    
+    - name: Upload release asset
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ github.event.release.upload_url }}
+        asset_path: ./obsidian-similar-notes.zip
+        asset_name: obsidian-similar-notes.zip
+        asset_content_type: application/zip 
