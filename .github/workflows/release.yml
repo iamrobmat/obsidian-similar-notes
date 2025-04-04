@@ -24,3 +24,4 @@ jobs:
           manifest: manifest.json
           main: main.js
           styles: styles.css
+          token: ${{ secrets.GITHUB_TOKEN }}
