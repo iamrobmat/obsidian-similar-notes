@@ -18,14 +18,6 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
-      - name: Upload Release Assets
-        uses: actions/upload-artifact@v3
-        with:
-          name: release
-          path: |
-            manifest.json
-            main.js
-            styles.css
       - name: Create Release
         uses: obsidianmd/obsidian-releases@v1
         with:
