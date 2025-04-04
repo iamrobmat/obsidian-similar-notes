@@ -25,3 +25,5 @@ jobs:
           main: main.js
           styles: styles.css
           token: ${{ secrets.GITHUB_TOKEN }}
+          draft: false
+          prerelease: false
