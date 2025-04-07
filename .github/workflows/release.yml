@@ -26,19 +26,19 @@ jobs:
       - name: List files after build
         run: ls -la
         
-      - name: Upload Release Assets
-        uses: actions/upload-artifact@v4
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
         with:
-          name: release
-          path: |
+          files: |
             manifest.json
             main.js
             styles.css
-            
-      - name: Create Release
-        uses: obsidianmd/obsidian-releases@v2
-        with:
-          manifest: manifest.json
-          main: main.js
-          styles: styles.css
           token: ${{ secrets.GITHUB_TOKEN }}
+          tag_name: ${{ github.ref_name }}
+          name: Release ${{ github.ref_name }}
+          body: |
+            Release ${{ github.ref_name }}
+            
+            Changes:
+            - Updated GitHub Actions workflow
+            - Fixed release process
