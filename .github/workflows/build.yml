@@ -1,5 +1,6 @@
 name: Build and Release
 
+# Updated workflow with v4 actions
 on:
   push:
     branches: [ master ]
