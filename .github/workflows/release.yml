@@ -35,7 +35,7 @@ jobs:
             styles.css
             
       - name: Create Release
-        uses: obsidianmd/obsidian-releases@v1
+        uses: obsidianmd/obsidian-releases@v2
         with:
           manifest: manifest.json
           main: main.js
