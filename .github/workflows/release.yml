@@ -1,5 +1,6 @@
 name: Release
 
+# Updated workflow with latest actions
 on:
   push:
     tags:
